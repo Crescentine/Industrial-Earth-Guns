@@ -23,7 +23,7 @@
       "com.augustsextus.gunmod.GunMod"
     ],
     "client": [
-      "com.augustsextus.gunmod.GunModClient",
+      "com.augustsextus.gunmod.GunModClient"
     ]
   },
   "mixins": [
