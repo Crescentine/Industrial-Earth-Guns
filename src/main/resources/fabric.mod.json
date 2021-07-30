@@ -3,11 +3,10 @@
   "id": "gun",
   "version": "${version}",
 
-  "name": "Industrial Earth Guns (Fabric)",
-  "description": "Gun mod made for Industrial Earth: Remilitarized",
+  "name": "Gun Mod",
+  "description": "",
   "authors": [
-    "August Sextus (Original Author)",
-    "Crescentine/King Peter (Contributer)"
+    "August Sextus",
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -23,7 +22,7 @@
       "com.augustsextus.gunmod.GunMod"
     ],
     "client": [
-      "com.augustsextus.gunmod.GunModClient"
+      "com.augustsextus.gunmod.GunModClient",
     ]
   },
   "mixins": [

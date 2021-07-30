@@ -61,6 +61,5 @@ public class GunMod implements ModInitializer, BulletEntityInvoker {
     @Override
     public void invokeSpawnSmoke() {
 
-        //Something stupid so that I can commit this to github
     }
 }
