@@ -24,6 +24,7 @@ public class ItemRegistry {
     public static final Gun HANDGUN_1 = new Gun(new FabricItemSettings().group(ItemGroup.COMBAT).maxCount(1));
     public static final Gun HANDGUN_2 = new Gun(new FabricItemSettings().group(ItemGroup.COMBAT).maxCount(1));
     public static final Gun HANDGUN_3 = new Gun(new FabricItemSettings().group(ItemGroup.COMBAT).maxCount(1));
+    public static final Gun RIFLE_4 = new Gun(new FabricItemSettings().group(ItemGroup.COMBAT).maxCount(1));
 
     //public static final com.augustsextus.gunmod.items.PackedSnowballItem PackedSnowballItem = new PackedSnowballItem(new Item.Settings().group(ItemGroup.MISC).maxCount(16));
 
@@ -40,6 +41,7 @@ public class ItemRegistry {
         Registry.register(Registry.ITEM, new Identifier(GunMod.MOD_ID, "bullet"), BULLET);
         Registry.register(Registry.ITEM, new Identifier(GunMod.MOD_ID, "rifle_2"), RIFLE_2);
         Registry.register(Registry.ITEM, new Identifier(GunMod.MOD_ID, "rifle_3"), RIFLE_3);
+        Registry.register(Registry.ITEM, new Identifier(GunMod.MOD_ID, "rifle_4"), RIFLE_4 );
         Registry.register(Registry.ITEM, new Identifier(GunMod.MOD_ID, "handgun_1"), HANDGUN_1);
         Registry.register(Registry.ITEM, new Identifier(GunMod.MOD_ID, "handgun_2"), HANDGUN_2);
         Registry.register(Registry.ITEM, new Identifier(GunMod.MOD_ID, "handgun_3"), HANDGUN_3);

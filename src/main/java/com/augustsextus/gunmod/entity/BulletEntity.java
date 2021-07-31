@@ -1,6 +1,6 @@
 package com.augustsextus.gunmod.entity;
 
-import com.augustsextus.gunmod.EntitySpawnPacket;
+import com.augustsextus.gunmod.EntitySpawnPacket2;
 import com.augustsextus.gunmod.GunModClient;
 import com.augustsextus.gunmod.deathmessages.DamageSourceV2;
 //import com.augustsextus.gunmod.items.Gun;
@@ -63,7 +63,7 @@ public class BulletEntity extends ThrownItemEntity {
 
     @Override
     public Packet createSpawnPacket() {
-        return EntitySpawnPacket.create(this, GunModClient.PacketID);
+        return EntitySpawnPacket2.createPacket(this, GunModClient.PacketID);
     }
 
     @Override

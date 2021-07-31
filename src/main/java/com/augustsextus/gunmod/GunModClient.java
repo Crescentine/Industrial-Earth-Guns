@@ -46,9 +46,9 @@ public class GunModClient implements ClientModInitializer {
             EntityType<?> et = Registry.ENTITY_TYPE.get(byteBuf.readVarInt());
             UUID uuid = byteBuf.readUuid();
             int entityId = byteBuf.readVarInt();
-            Vec3d pos = EntitySpawnPacket.PacketBufUtil.readVec3d(byteBuf);
-            float pitch = EntitySpawnPacket.PacketBufUtil.readAngle(byteBuf);
-            float yaw = EntitySpawnPacket.PacketBufUtil.readAngle(byteBuf);
+            Vec3d pos = EntitySpawnPacket2.PacketBufUtil.readVec3d(byteBuf);
+            float pitch = EntitySpawnPacket2.PacketBufUtil.readAngle(byteBuf);
+            float yaw = EntitySpawnPacket2.PacketBufUtil.readAngle(byteBuf);
             ctx.getTaskQueue().execute(() -> {
                 if (MinecraftClient.getInstance().world == null)
                     throw new IllegalStateException("Tried to spawn entity in a null world!");

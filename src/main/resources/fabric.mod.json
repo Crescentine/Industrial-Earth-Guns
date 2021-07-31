@@ -3,17 +3,18 @@
   "id": "gun",
   "version": "${version}",
 
-  "name": "Gun Mod",
+  "name": "Industrial Earth Guns Mod",
   "description": "",
   "authors": [
-    "August Sextus",
+    "August Sextus (original author)",
+    "Crescentine (maintainer)"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "",
+  "license": "Unknown -Crescentine",
   "icon": "assets/gun/icon.png",
 
   "environment": "*",
@@ -22,7 +23,7 @@
       "com.augustsextus.gunmod.GunMod"
     ],
     "client": [
-      "com.augustsextus.gunmod.GunModClient",
+      "com.augustsextus.gunmod.GunModClient"
     ]
   },
   "mixins": [
